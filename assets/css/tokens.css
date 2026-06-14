@@ -1,0 +1,98 @@
+/* ============================================================
+   Clínica Dental Oiasso — Design Tokens
+   Marca: verde #1a9b5c + magenta #e6007e · OKLCH
+   ============================================================ */
+
+/* ---- Self-hosted fonts ---- */
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('../fonts/bricolage-var.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('../fonts/hanken-var.woff2') format('woff2');
+}
+
+:root {
+  /* ---- Color (OKLCH) ---- */
+  --brand-green:        oklch(0.62 0.15 155);
+  --brand-green-deep:   oklch(0.48 0.13 156);
+  --brand-green-ink:    oklch(0.30 0.07 157);
+  --brand-magenta:      oklch(0.60 0.25 354);
+  --brand-magenta-deep: oklch(0.50 0.22 354);
+
+  --ink:          oklch(0.24 0.02 160);
+  --bg:           oklch(0.99 0.004 150);
+  --surface:      oklch(0.975 0.008 155);
+  --surface-mint: oklch(0.95 0.03 158);
+  --muted:        oklch(0.45 0.02 160);
+  --line:         oklch(0.90 0.01 155);
+  --white:        #ffffff;
+
+  /* on-green text */
+  --on-green:      oklch(0.99 0.01 155);
+  --on-green-soft: oklch(0.90 0.04 158);
+
+  /* ---- Typography ---- */
+  --font-display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
+  --font-body:    'Hanken Grotesk', 'Segoe UI', system-ui, sans-serif;
+
+  --step--1: clamp(0.84rem, 0.80rem + 0.18vw, 0.94rem);
+  --step-0:  clamp(1rem, 0.95rem + 0.25vw, 1.13rem);
+  --step-1:  clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+  --step-2:  clamp(1.56rem, 1.4rem + 0.8vw, 2rem);
+  --step-3:  clamp(1.95rem, 1.7rem + 1.25vw, 2.7rem);
+  --step-4:  clamp(2.44rem, 2rem + 2.2vw, 3.6rem);
+  --step-5:  clamp(3.05rem, 2.3rem + 3.6vw, 5.25rem);
+
+  /* ---- Spacing (fluid) ---- */
+  --space-2xs: clamp(0.5rem, 0.45rem + 0.25vw, 0.65rem);
+  --space-xs:  clamp(0.75rem, 0.68rem + 0.35vw, 1rem);
+  --space-s:   clamp(1rem, 0.9rem + 0.5vw, 1.4rem);
+  --space-m:   clamp(1.6rem, 1.4rem + 1vw, 2.4rem);
+  --space-l:   clamp(2.6rem, 2.1rem + 2.4vw, 4rem);
+  --space-xl:  clamp(4rem, 3rem + 4.5vw, 7rem);
+  --space-2xl: clamp(6rem, 4.5rem + 6vw, 10rem);
+
+  /* ---- Layout ---- */
+  --container: 1240px;
+  --container-narrow: 880px;
+  --gutter: clamp(1.1rem, 0.6rem + 2.5vw, 2.5rem);
+
+  /* ---- Radii ---- */
+  --r-s: 10px;
+  --r-m: 18px;
+  --r-l: 28px;
+  --r-xl: 40px;
+  --r-pill: 999px;
+
+  /* ---- Shadow / glow ---- */
+  --shadow-s: 0 1px 2px oklch(0.30 0.05 157 / 0.06), 0 2px 8px oklch(0.30 0.05 157 / 0.06);
+  --shadow-m: 0 4px 14px oklch(0.30 0.05 157 / 0.08), 0 12px 30px oklch(0.30 0.05 157 / 0.10);
+  --shadow-l: 0 10px 30px oklch(0.30 0.05 157 / 0.12), 0 30px 70px oklch(0.30 0.05 157 / 0.14);
+  --glow-magenta: 0 8px 30px oklch(0.60 0.25 354 / 0.30);
+  --glow-green:   0 8px 30px oklch(0.62 0.15 155 / 0.28);
+
+  /* ---- Motion ---- */
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-out-expo:  cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 0.18s;
+  --dur:      0.32s;
+  --dur-slow: 0.6s;
+
+  /* ---- z-index scale ---- */
+  --z-base: 1;
+  --z-deco: 2;
+  --z-sticky: 100;
+  --z-nav: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-loader: 900;
+}

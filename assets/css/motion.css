@@ -1,0 +1,32 @@
+/* ============================================================
+   Motion: GSAP reveal defaults + reduced-motion fallbacks
+   Reveals enhance already-visible content (no visibility gating).
+   ============================================================ */
+
+/* Elements GSAP will animate start slightly offset only when JS+motion is on.
+   The `js-anim` class is added by JS after confirming motion is allowed. */
+.js-anim [data-reveal] { opacity: 0; transform: translateY(24px); will-change: transform, opacity; }
+.js-anim [data-reveal="left"]  { transform: translateX(-30px); }
+.js-anim [data-reveal="right"] { transform: translateX(30px); }
+.js-anim [data-reveal="scale"] { transform: scale(0.94); }
+
+/* magnetic / hover-tilt targets */
+.magnetic { transition: transform var(--dur) var(--ease-out-quart); }
+
+/* draw-on-scroll SVG icons */
+.draw-path { stroke-dasharray: 1; stroke-dashoffset: 1; }
+.js-anim .draw-path { /* animated via gsap */ }
+
+/* reduced motion: everything visible & static */
+@media (prefers-reduced-motion: reduce) {
+  .js-anim [data-reveal] { opacity: 1 !important; transform: none !important; }
+  .draw-path { stroke-dashoffset: 0 !important; }
+  .loader { display: none !important; }
+  .magnetic { transition: none !important; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

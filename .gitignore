@@ -1,0 +1,9 @@
+# Dev / build artifacts
+node_modules/
+_shots/
+_*.mjs
+.impeccable/
+_imgdims.json
+*.bak
+.DS_Store
+Thumbs.db

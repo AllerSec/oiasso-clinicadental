@@ -1,0 +1,41 @@
+# Clínica Dental Oiasso
+
+> Clínica dental en Irún (Gipuzkoa, España) con más de 30 años de experiencia. Especializada en implantes dentales, ortodoncia invisible (Invisalign®) y estética dental, con un enfoque de odontología mínimamente invasiva y materiales biocompatibles libres de Bisfenol-A (BPA). Seis gabinetes, uno dedicado en exclusiva a cirugía y otro a odontopediatría.
+
+Datos de contacto:
+- Dirección: Calle Luis Mariano 16, 1ºB, 20302 Irún, Gipuzkoa, España
+- Teléfono: 943 633 933 (+34 943 633 933)
+- WhatsApp: 646 290 701
+- Email: contacto@clinicadentaloiasso.com
+- Horario: Lunes 09:00–16:00 · Martes a Jueves 9:00–13:00 y 16:00–19:00 · Viernes 9:00–13:00 y 16:30–19:00
+
+## Páginas principales
+- [Inicio](https://clinicadentaloiasso.com/index.html): Presentación de la clínica, especialidades y proceso de primera visita.
+- [Tratamientos](https://clinicadentaloiasso.com/tratamientos/index.html): Catálogo completo de los 11 tratamientos dentales.
+- [La clínica](https://clinicadentaloiasso.com/clinica.html): Filosofía, instalaciones y enfoque mínimamente invasivo.
+- [El equipo](https://clinicadentaloiasso.com/equipo.html): Profesionales, especialidades y forma de trabajo de la clínica.
+- [Primera visita](https://clinicadentaloiasso.com/primera-visita.html): Qué ocurre en la primera cita, diagnóstico, radiografías y plan personalizado.
+- [Precios y financiación](https://clinicadentaloiasso.com/financiacion.html): Presupuesto por escrito, formas de pago y financiación flexible.
+- [Preguntas frecuentes](https://clinicadentaloiasso.com/preguntas-frecuentes.html): Dudas habituales sobre visita, tratamientos, sedación, financiación y urgencias.
+- [Urgencias dentales](https://clinicadentaloiasso.com/urgencias.html): Información para dolor dental, golpes, piezas rotas y atención prioritaria.
+- [Casos reales](https://clinicadentaloiasso.com/casos/index.html): Resultados antes y después de pacientes reales.
+- [Blog](https://clinicadentaloiasso.com/blog/index.html): Consejos y recomendaciones dentales.
+- [Contacto](https://clinicadentaloiasso.com/contacto.html): Formulario de cita, teléfono, WhatsApp y ubicación.
+
+## Tratamientos
+- [Implantes dentales](https://clinicadentaloiasso.com/tratamientos/implantes-dentales.html): Rehabilitación de dientes perdidos con implantes de titanio.
+- [Ortodoncia invisible](https://clinicadentaloiasso.com/tratamientos/ortodoncia-invisible.html): Alineadores transparentes Invisalign®.
+- [Estética dental](https://clinicadentaloiasso.com/tratamientos/estetica-dental.html): Carillas de porcelana y composite, diseño de sonrisa.
+- [Brackets](https://clinicadentaloiasso.com/tratamientos/brackets.html): Ortodoncia fija metálica y estética.
+- [Cirugía oral](https://clinicadentaloiasso.com/tratamientos/cirugia-oral.html): Extracciones, frenillos y muelas del juicio.
+- [Endodoncia](https://clinicadentaloiasso.com/tratamientos/endodoncia.html): Tratamiento de conductos para salvar piezas dañadas.
+- [Periodoncia](https://clinicadentaloiasso.com/tratamientos/periodoncia.html): Prevención y tratamiento de la enfermedad de las encías.
+- [Odontología conservadora](https://clinicadentaloiasso.com/tratamientos/odontologia-conservadora.html): Prevención e higiene bucodental.
+- [Blanqueamiento dental](https://clinicadentaloiasso.com/tratamientos/blanqueamiento-dental.html): Aclaramiento dental con tecnología Zoom!®.
+- [Odontopediatría](https://clinicadentaloiasso.com/tratamientos/odontopediatria.html): Odontología infantil.
+- [Sedación consciente](https://clinicadentaloiasso.com/tratamientos/sedacion-consciente.html): Sedación suave con óxido nitroso para el miedo al dentista.
+
+## Legal
+- [Aviso legal](https://clinicadentaloiasso.com/legal/aviso-legal.html)
+- [Política de privacidad](https://clinicadentaloiasso.com/legal/politica-de-privacidad.html)
+- [Política de cookies](https://clinicadentaloiasso.com/legal/politica-de-cookies.html)

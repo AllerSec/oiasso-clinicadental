@@ -1,0 +1,108 @@
+<a class="skip-link" href="#main">Saltar al contenido</a>
+__SPRITE__
+<div class="loader" id="loader" aria-hidden="true">
+  <svg class="loader__mark" viewBox="0 0 120 120" fill="none">
+    <path class="loader__draw" d="M30 44c0-13 9-22 20-22 7 0 9 4 20 4s13-4 20-4c11 0 20 9 20 22 0 11-4 18-9 18-6 0-6-9-13-9s-7 11-11 20c-2 5-4 7-7 7s-5-2-7-7c-4-9-4-20-11-20s-7 9-13 9c-5 0-9-7-9-18z" stroke="#1a9b5c" stroke-width="4"/>
+    <path class="loader__draw" d="M34 82c8 11 17 16 26 16s18-5 26-16" stroke="#e6007e" stroke-width="5"/>
+  </svg>
+</div>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Principal">
+    <a class="nav__logo" href="{{BASE}}index.html" aria-label="Clínica Dental Oiasso — Inicio">
+      <img src="{{BASE}}assets/img/brand/logo-oiasso.png" alt="Clínica Dental Oiasso" width="180" height="42">
+    </a>
+    <ul class="nav__menu">
+      <li><a class="nav__link"{{A_HOME}} href="{{BASE}}index.html">Inicio</a></li>
+      <li class="nav__has-drop">
+        <button class="nav__link nav__drop-btn"{{A_CLIN}} aria-haspopup="true" aria-expanded="false">Clínica <svg class="nav__caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav__drop">
+          <a href="{{BASE}}clinica.html"><svg width="20" height="20"><use href="#i-shield"/></svg><span><strong>La clínica</strong>Más de 30 años en Irún</span></a>
+          <a href="{{BASE}}equipo.html"><svg width="20" height="20"><use href="#i-pediatria"/></svg><span><strong>El equipo</strong>Quiénes te atienden</span></a>
+          <a href="{{BASE}}primera-visita.html"><svg width="20" height="20"><use href="#i-check"/></svg><span><strong>Primera visita</strong>Qué esperar paso a paso</span></a>
+        </div>
+      </li>
+      <li class="nav__has-drop">
+        <button class="nav__link nav__drop-btn"{{A_TRAT}} aria-haspopup="true" aria-expanded="false">Tratamientos <svg class="nav__caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav__drop nav__drop--wide">
+          <a href="{{BASE}}tratamientos/implantes-dentales.html"><svg width="20" height="20"><use href="#i-implante"/></svg><span><strong>Implantes dentales</strong></span></a>
+          <a href="{{BASE}}tratamientos/ortodoncia-invisible.html"><svg width="20" height="20"><use href="#i-invisible"/></svg><span><strong>Ortodoncia invisible</strong></span></a>
+          <a href="{{BASE}}tratamientos/estetica-dental.html"><svg width="20" height="20"><use href="#i-estetica"/></svg><span><strong>Estética dental</strong></span></a>
+          <a href="{{BASE}}tratamientos/brackets.html"><svg width="20" height="20"><use href="#i-brackets"/></svg><span><strong>Brackets</strong></span></a>
+          <a href="{{BASE}}tratamientos/cirugia-oral.html"><svg width="20" height="20"><use href="#i-cirugia"/></svg><span><strong>Cirugía oral</strong></span></a>
+          <a href="{{BASE}}tratamientos/endodoncia.html"><svg width="20" height="20"><use href="#i-endodoncia"/></svg><span><strong>Endodoncia</strong></span></a>
+          <a href="{{BASE}}tratamientos/periodoncia.html"><svg width="20" height="20"><use href="#i-periodoncia"/></svg><span><strong>Periodoncia</strong></span></a>
+          <a href="{{BASE}}tratamientos/odontologia-conservadora.html"><svg width="20" height="20"><use href="#i-conservadora"/></svg><span><strong>Odontología conservadora</strong></span></a>
+          <a href="{{BASE}}tratamientos/blanqueamiento-dental.html"><svg width="20" height="20"><use href="#i-blanqueamiento"/></svg><span><strong>Blanqueamiento</strong></span></a>
+          <a href="{{BASE}}tratamientos/odontopediatria.html"><svg width="20" height="20"><use href="#i-pediatria"/></svg><span><strong>Odontopediatría</strong></span></a>
+          <a href="{{BASE}}tratamientos/sedacion-consciente.html"{{A_SED}}><svg width="20" height="20"><use href="#i-sedacion"/></svg><span><strong>Sedación consciente</strong></span></a>
+          <a class="nav__drop-all" href="{{BASE}}tratamientos/index.html"><span><strong>Ver todos los tratamientos</strong></span><svg width="18" height="18"><use href="#i-arrow"/></svg></a>
+        </div>
+      </li>
+      <li><a class="nav__link"{{A_CASOS}} href="{{BASE}}casos/index.html">Casos</a></li>
+      <li class="nav__has-drop">
+        <button class="nav__link nav__drop-btn"{{A_PAC}} aria-haspopup="true" aria-expanded="false">Pacientes <svg class="nav__caret" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav__drop">
+          <a href="{{BASE}}financiacion.html"><svg width="20" height="20"><use href="#i-shield"/></svg><span><strong>Precios y financiación</strong>Paga a tu ritmo</span></a>
+          <a href="{{BASE}}preguntas-frecuentes.html"><svg width="20" height="20"><use href="#i-quote"/></svg><span><strong>Preguntas frecuentes</strong>Resolvemos tus dudas</span></a>
+          <a href="{{BASE}}urgencias.html"><svg width="20" height="20"><use href="#i-phone"/></svg><span><strong>Urgencias dentales</strong>Atención el mismo día</span></a>
+        </div>
+      </li>
+      <li><a class="nav__link"{{A_BLOG}} href="{{BASE}}blog/index.html">Blog</a></li>
+      <li><a class="nav__link"{{A_CONT}} href="{{BASE}}contacto.html">Contacto</a></li>
+    </ul>
+    <div class="nav__right">
+      <div class="lang-switch" data-open="false">
+        <button class="lang-switch__btn" aria-haspopup="true" aria-expanded="false">ES <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="lang-switch__menu" role="menu">
+          <a href="{{BASE}}index.html" aria-current="true" role="menuitem">🇪🇸 Español</a>
+          <a href="{{BASE}}index.html" role="menuitem" data-lang-soon title="Próximamente">🇬🇧 English</a>
+          <a href="{{BASE}}index.html" role="menuitem" data-lang-soon title="Próximamente">🇫🇷 Français</a>
+          <a href="{{BASE}}index.html" role="menuitem" data-lang-soon title="Laster">🟢 Euskara</a>
+        </div>
+      </div>
+      <a class="nav__urgent" href="{{BASE}}urgencias.html"><svg width="16" height="16"><use href="#i-phone"/></svg><span>Urgencias</span></a>
+      <a class="btn btn--sm magnetic" href="{{BASE}}contacto.html"><span>Pedir cita</span></a>
+    </div>
+    <button class="nav__burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a class="mobile-nav__link" href="{{BASE}}index.html">Inicio <svg width="22" height="22"><use href="#i-arrow"/></svg></a>
+  <details class="mobile-nav__group">
+    <summary>Clínica <svg class="m-caret" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+    <a href="{{BASE}}clinica.html">La clínica</a>
+    <a href="{{BASE}}equipo.html">El equipo</a>
+    <a href="{{BASE}}primera-visita.html">Primera visita</a>
+  </details>
+  <details class="mobile-nav__group">
+    <summary>Tratamientos <svg class="m-caret" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+    <a href="{{BASE}}tratamientos/implantes-dentales.html">Implantes dentales</a>
+    <a href="{{BASE}}tratamientos/ortodoncia-invisible.html">Ortodoncia invisible</a>
+    <a href="{{BASE}}tratamientos/estetica-dental.html">Estética dental</a>
+    <a href="{{BASE}}tratamientos/brackets.html">Brackets</a>
+    <a href="{{BASE}}tratamientos/cirugia-oral.html">Cirugía oral</a>
+    <a href="{{BASE}}tratamientos/endodoncia.html">Endodoncia</a>
+    <a href="{{BASE}}tratamientos/periodoncia.html">Periodoncia</a>
+    <a href="{{BASE}}tratamientos/odontologia-conservadora.html">Odontología conservadora</a>
+    <a href="{{BASE}}tratamientos/blanqueamiento-dental.html">Blanqueamiento dental</a>
+    <a href="{{BASE}}tratamientos/odontopediatria.html">Odontopediatría</a>
+    <a href="{{BASE}}tratamientos/sedacion-consciente.html">Sedación consciente</a>
+    <a href="{{BASE}}tratamientos/index.html">Ver todos →</a>
+  </details>
+  <a class="mobile-nav__link" href="{{BASE}}casos/index.html">Casos <svg width="22" height="22"><use href="#i-arrow"/></svg></a>
+  <details class="mobile-nav__group">
+    <summary>Pacientes <svg class="m-caret" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+    <a href="{{BASE}}financiacion.html">Precios y financiación</a>
+    <a href="{{BASE}}preguntas-frecuentes.html">Preguntas frecuentes</a>
+    <a href="{{BASE}}urgencias.html">Urgencias dentales</a>
+  </details>
+  <a class="mobile-nav__link" href="{{BASE}}blog/index.html">Blog <svg width="22" height="22"><use href="#i-arrow"/></svg></a>
+  <a class="mobile-nav__link" href="{{BASE}}contacto.html">Contacto <svg width="22" height="22"><use href="#i-arrow"/></svg></a>
+  <a class="btn btn--lg mobile-nav__cta" href="{{BASE}}contacto.html">Pedir cita</a>
+  <div class="mobile-nav__contact">
+    <a href="tel:+34943633933"><svg width="18" height="18" style="display:inline;vertical-align:-3px"><use href="#i-phone"/></svg> 943 633 933</a>
+    <a href="{{BASE}}urgencias.html" style="color:var(--brand-magenta);font-weight:700">Urgencias dentales →</a>
+  </div>
+</div>

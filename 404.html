@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Página no encontrada (404) | Clínica Dental Oiasso</title>
+<meta name="description" content="La página que buscas no existe. Vuelve al inicio de la Clínica Dental Oiasso en Irún.">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#1a9b5c">
+<link rel="icon" href="/assets/img/brand/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/bricolage-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/hanken-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/base.css">
+<link rel="stylesheet" href="/assets/css/components.css">
+<link rel="stylesheet" href="/assets/css/sections.css">
+<link rel="stylesheet" href="/assets/css/motion.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h3l2 5-2.5 1.5a12 12 0 0 0 5 5L19 16l2 5a2 2 0 0 1-2 2 17 17 0 0 1-16-16 2 2 0 0 1 3-4z"/></symbol>
+</svg>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Principal">
+    <a class="nav__logo" href="/index.html" aria-label="Clínica Dental Oiasso — Inicio"><img src="/assets/img/brand/logo-oiasso.png" alt="Clínica Dental Oiasso" width="180" height="42" decoding="async"></a>
+    <div class="nav__right"><a class="btn btn--sm" href="/contacto.html"><span>Pedir cita</span></a></div>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="container notfound">
+    <div>
+      <p class="notfound__code">4<svg class="notfound__tooth" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4c4 0 6 3 6 7 0 5-2 17-6 17s-6-12-6-17c0-4 2-7 6-7z"/><path d="M12 24c1-3 7-3 8 0"/></svg>4</p>
+      <h1 style="margin-top:var(--space-s)">Vaya, esta página se nos ha caído</h1>
+      <p class="lead" style="margin:var(--space-s) auto 0;max-width:48ch">La dirección que buscas no existe o se ha movido. Te llevamos de vuelta a un lugar seguro.</p>
+      <div class="btn-row" style="justify-content:center;margin-top:var(--space-m)">
+        <a class="btn btn--lg magnetic" href="/index.html"><span>Volver al inicio</span><svg class="btn__icon" width="22" height="22"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--lg btn--ghost" href="/contacto.html"><svg width="20" height="20"><use href="#i-phone"/></svg><span>Contacto</span></a>
+      </div>
+      <p class="muted" style="margin-top:var(--space-m);color:var(--muted)">Te redirigimos al inicio en <span id="count">8</span> s…</p>
+    </div>
+  </section>
+</main>
+
+<script>
+  // Redirección automática al inicio si la página no existe
+  (function () {
+    var n = 8;
+    var el = document.getElementById('count');
+    var t = setInterval(function () {
+      n--; if (el) el.textContent = n;
+      if (n <= 0) { clearInterval(t); window.location.replace('/index.html'); }
+    }, 1000);
+  })();
+</script>
+</body>
+</html>

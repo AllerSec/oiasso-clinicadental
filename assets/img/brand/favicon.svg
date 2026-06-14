@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Clínica Dental Oiasso">
+  <rect width="64" height="64" rx="14" fill="#ffffff"/>
+  <!-- diente verde superior (forma del logo) -->
+  <path d="M14 22c0-6 4-10 9-10 3 0 4 2 9 2s6-2 9-2c5 0 9 4 9 10 0 5-2 8-4 8-3 0-3-4-6-4s-3 5-5 9c-1 2-2 3-3 3s-2-1-3-3c-2-4-2-9-5-9s-3 4-6 4c-2 0-5-3-5-8z" fill="#1a9b5c"/>
+  <!-- sonrisa magenta inferior -->
+  <path d="M16 40c5 7 11 10 16 10s11-3 16-10" fill="none" stroke="#e6007e" stroke-width="6" stroke-linecap="round"/>
+</svg>

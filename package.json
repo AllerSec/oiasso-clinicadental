@@ -1,0 +1,15 @@
+{
+  "name": "oiasso-clinicadental",
+  "version": "1.0.0",
+  "description": "Sitio estático (HTML + CSS + JS vanilla con GSAP) para la Clínica Dental Oiasso de Irún (Gipuzkoa). Pensado para **GitHub Pages**: todo el contenido publicable vive en la raíz del repositorio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.21.0"
+  }
+}
