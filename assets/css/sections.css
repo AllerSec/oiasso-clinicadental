@@ -107,8 +107,9 @@
   box-shadow: var(--shadow-m); padding: var(--space-s) var(--space-m);
   display: flex; align-items: center; gap: 0.8rem;
 }
-.hero__badge--years { left: -6%; top: 12%; }
-.hero__badge--rating { right: -4%; bottom: 18%; }
+.hero__badge--years { left: 4%; top: 12%; }
+.hero__badge--rating { right: 4%; bottom: 18%; max-width: min(220px, 60%); }
+.hero__badge--rating .sm { white-space: normal; }
 .hero__badge .big { font-family: var(--font-display); font-weight: 800; font-size: var(--step-3); color: var(--brand-magenta); line-height: 1; letter-spacing: -0.03em; }
 .hero__badge .sm { font-size: var(--step--1); color: var(--muted); line-height: 1.2; }
 .hero__badge .stars { color: var(--brand-magenta); display: flex; }
