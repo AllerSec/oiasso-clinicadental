@@ -32,6 +32,11 @@ body {
 img, picture, svg, video { display: block; max-width: 100%; }
 img, video { height: auto; }
 
+/* Vivacidad sutil en fotos: un poco de saturación + contraste para que
+   las imágenes respiren mejor. No afecta a logos de marca. */
+img { filter: saturate(1.12) contrast(1.03) brightness(1.01); }
+.nav__logo img, .footer__logo, img.footer__logo { filter: none; }
+
 a { color: inherit; text-decoration: none; }
 button { font: inherit; color: inherit; cursor: pointer; background: none; border: none; }
 input, textarea, select { font: inherit; color: inherit; }
